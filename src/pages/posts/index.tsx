@@ -6,8 +6,6 @@ import { getPrimiscClient } from "../../services/prismic";
 import Prismic from "@prismicio/client";
 import { RichText } from "prismic-dom";
 import styles from "./styles.module.scss";
-import { useSession } from "next-auth/client";
-import { useRouter } from "next/router";
 
 type Post = {
   slug: string;
@@ -74,7 +72,6 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       posts,
     },
-    fallback: false,
     revalidate: 60 * 60 * 24,
   };
 };
