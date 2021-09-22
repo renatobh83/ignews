@@ -41,12 +41,6 @@ export default function Posts({ posts }: PostsProps) {
     </>
   );
 }
-export const getStaticPaths = async () => {
-  return {
-    paths: [],
-    fallback: "blocking",
-  };
-};
 
 export const getStaticProps: GetStaticProps = async () => {
   const primisc = getPrimiscClient();
