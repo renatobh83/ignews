@@ -57,4 +57,4 @@ Uma aplicacao blog aonde voce pode ter controle de acesso a leitura dos blogs a 
   yarn test
 ```
 
-[Live In](https://ignews-mytg9yx7e-renatobh83.vercel.app)
+[Live In](https://ignews-silk.vercel.app)
