@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { ActiveLink } from "../LinkActive";
 import { SingInButton } from "../SingInButton";
 import styles from "./Header.module.scss";
+
 export function Header() {
   return (
     <header className={styles.HeaderContainer}>
